@@ -1,0 +1,27 @@
+.scrollbar {
+	display:inline-block;
+	width:15px;
+	float:right;
+	margin-bottom:0;
+	background-color:#b4b7ba;
+	position:relative;
+}
+.scroller {
+	position:absolute;
+	display:inline-block;
+	width:10px;
+	left:0;
+	margin:0;
+	padding:1px;
+	background-color:#005960;
+	border: solid 2px #b4b7ba;
+}
+
+.container {
+	position:relative;
+	height:300px;
+	width:300px;
+	margin:100px;
+	background-color:#f1f1f1;
+	overflow:hidden;
+}
